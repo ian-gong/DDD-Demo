@@ -29,7 +29,7 @@ public class Account {
 	public Account() {
 
 		System.out.println("--------------我被实例化了---------------");
-	}
+	} 
 
 	@CommandHandler
 	public Account(AccountCreateCommand command) {

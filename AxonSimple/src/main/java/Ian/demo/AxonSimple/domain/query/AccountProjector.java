@@ -22,7 +22,7 @@ public class AccountProjector {
 	@Autowired
 	AxonConfiguration axonConfiguration;
 
-	@Autowired
+	@Autowired 
 	private AccountEntityRepository accountEntityRepository;
 
 	//@EventHandler
